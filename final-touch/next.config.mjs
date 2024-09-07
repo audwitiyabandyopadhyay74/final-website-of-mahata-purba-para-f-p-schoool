@@ -6,9 +6,6 @@ const nextConfig = {
     javascript: {
         ignoreBuildErrors: true,
     },
-
-
-
     images: {
         domains: ["firebasestorage.googleapis.com"]
 
