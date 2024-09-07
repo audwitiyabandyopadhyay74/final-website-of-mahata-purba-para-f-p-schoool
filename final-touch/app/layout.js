@@ -2,7 +2,7 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
-import { noSSR } from "next/dynamic";
+// import { noSSR } from "next/dynamic";
 const inter = Outfit({ subsets: ["latin"] });
 
 
@@ -13,9 +13,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return ( <
-        html lang = "ben" >
+        html >
         <
-        body className = { inter.className } > { children } < /body> < /
+        body className = { inter.className } > { children } < /body>  < /
         html >
     );
 }

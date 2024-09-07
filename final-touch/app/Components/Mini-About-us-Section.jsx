@@ -2,7 +2,7 @@
 // import React,{useRef,useLayoutEffect} from 'react';
 "use client"
 
-import govtofwblogo from "../Assets/Image/government-of-west-bengal-logo.png"
+// import govtofwblogo from "../Assets/Image/government-of-west-bengal-logo.png"
 
 
 const MiniAboutusSection = () => {

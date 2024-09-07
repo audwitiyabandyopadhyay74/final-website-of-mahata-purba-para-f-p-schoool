@@ -1,7 +1,7 @@
 "use client"
 
 import React,{useEffect} from 'react';
-import {Link} from 'next/link';
+// import {Link} from 'next/link';
 
 const Popup = () => {
   // document.getElementsByClassName("Popup").onclick = () => { document.getElementsByClassName("Popup").style.display = "none";}
@@ -16,7 +16,7 @@ window.addEventListener("click", handleclose);
 
 },[]) 
 const Button = ()=>{
-  var newWindow = window.open("https://mail.google.com", "_blank", "width=600,height=400");
+   window.open("https://mail.google.com", "_blank", "width=600,height=400");
 }
   return (
     <div className='Popup'>

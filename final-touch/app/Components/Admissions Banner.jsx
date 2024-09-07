@@ -1,8 +1,8 @@
 "use client"
 
-import Image from 'next/image'
-import schoolelement from '../Assets/Image/School.jpg'
-import Script from 'next/script'
+// import Image from 'next/image'
+// import schoolelement from '../Assets/Image/School.jpg'
+// import Script from 'next/script'
 const AdimissionPage = () => {
   document.location.href = "/form"
 }

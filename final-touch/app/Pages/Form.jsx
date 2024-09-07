@@ -1,14 +1,14 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import {  useRef } from "react"
 // import {db} from "../firebaseConfig.js"
 
 import { collection, addDoc } from "firebase/firestore";
 import { useState } from "react"
-import FormElement from "../Components/Form Element"
+// import FormElement from "../Components/Form Element"
 import Image from "next/image"  
-import Script from "next/script"
-import Src from "../Script/Form"
+// import Script from "next/script"
+// import Src from "../Script/Form"
 import {jsPDF} from"jspdf"  
 // import { useRef } from "react"
 import html2canvas from 'html2canvas';
@@ -16,7 +16,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import { set } from "firebase/database";
+// import { set } from "firebase/database";
 
 
 
@@ -86,52 +86,52 @@ return false;
 
 
 const Form = () => {
-  const [selectedFile, setSelectedFile] = useState(null)
+  // const [selectedFile, setSelectedFile] = useState(null)
   const imgRef = useRef(null);
   const imgRef1 = useRef(null);
   const imgRef2 = useRef(null);
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0]
-    if (file) {
-      const reader = new FileReader()
-      reader.onloadend = (e) => {
-        setSelectedFile(reader.result)
-        // imgRef.current.src = e.target.result;
+  // const handleFileChange = (e) => {
+  //   const file = e.target.files[0]
+  //   if (file) {
+  //     const reader = new FileReader()
+  //     reader.onloadend = () => {
+  //       setSelectedFile(reader.result)
+  //       // imgRef.current.src = e.target.result;
 
-      }
-      reader.readAsDataURL(file)
-    }
-    setStudentImage(e.target.value)
-  }
+  //     }
+  //     reader.readAsDataURL(file)
+  //   }
+  //   setStudentImage(e.target.value)
+  // }
 
-  const [selectedFile2, setSelectedFile2] = useState(null)
+  // const [selectedFile2, setSelectedFile2] = useState(null)
 
-  const handleFileChange2 = (e2) => {
-    const file2 = e2.target.files[0]
-    if (file2) {
-      const reader2 = new FileReader()
-      reader2.onloadend = () => {
-        setSelectedFile2(reader2.result)
-      }
-      reader2.readAsDataURL(file2)
-    }
-    setDobimg(e2.target.value)
-  }
+  // const handleFileChange2 = (e2) => {
+  //   const file2 = e2.target.files[0]
+  //   if (file2) {
+  //     const reader2 = new FileReader()
+  //     reader2.onloadend = () => {
+  //       setSelectedFile2(reader2.result)
+  //     }
+  //     reader2.readAsDataURL(file2)
+  //   }
+  //   setDobimg(e2.target.value)
+  // }
 
-  const [selectedFile3, setSelectedFile3] = useState(null)
+  // const [selectedFile3, setSelectedFile3] = useState(null)
 
-  const handleFileChange3 = (e3) => {
-    const file3 = e3.target.files[0]
-    if (file3) {
-      const reader3 = new FileReader()
-      reader3.onloadend = () => {
-        setSelectedFile3(reader3.result)
-      }
-      reader3.readAsDataURL(file3)
-    }
-    setAadharimg(e3.target.value)
-  }
+  // const handleFileChange3 = (e3) => {
+  //   const file3 = e3.target.files[0]
+  //   if (file3) {
+  //     const reader3 = new FileReader()
+  //     reader3.onloadend = () => {
+  //       setSelectedFile3(reader3.result)
+  //     }
+  //     reader3.readAsDataURL(file3)
+  //   }
+  //   setAadharimg(e3.target.value)
+  // }
 const [Name,setName] = useState();
 const [FatherName,setFatherName] = useState();
 const [MotherName,setMotherName] = useState();
@@ -142,9 +142,9 @@ const [EnrollingClass,setEnrollingClass] = useState();
 const [Annualincome,setAnnualincome] = useState();
 const [Weight,setWeight] = useState();
 const [Height,setHeight] = useState();
-const [StudentImage,setStudentImage] = useState();
-const [Dobimg,setDobimg] = useState();  
-const [Aadharimg,setAadharimg] = useState();
+// const [StudentImage,setStudentImage] = useState();
+// const [Dobimg,setDobimg] = useState();  
+// const [Aadharimg,setAadharimg] = useState();
 const [BankAccountNo,setBankAccountNo] = useState();
 const [IFSCECode,setIFSCECode] = useState();
 const [AadharNumber,setAadharNumber] = useState();

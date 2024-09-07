@@ -32,5 +32,6 @@ const AboutTeachers = () => {
     </div>
   );
 }
+}
 
 export default AboutTeachers;
