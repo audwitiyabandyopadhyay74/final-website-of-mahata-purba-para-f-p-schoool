@@ -17,7 +17,6 @@ if(!hydrated) {
   return null
 }
 
-const AboutTeachers = () => {
   return (
     <div className='about-teachers'>
 <div className='w-screen flex items-center justify-center'>
@@ -32,6 +31,6 @@ const AboutTeachers = () => {
     </div>
   );
 }
-}
+
 
 export default AboutTeachers;
