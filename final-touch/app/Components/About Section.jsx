@@ -24,7 +24,7 @@ if(!hydrated) {
     <p>
       this school is a government school and is approved by the West Bengal ministry of education. 
       and this school is manged and owned by the Government of West Bengal it&apos;s falls under WBBPE Board. 
-      This School was established in the year 1932 and is a Goverment school. The school is located in Mahata 
+      This School was established in the year 1932 and is a Government school. The school is located in Mahata 
     </p>
     <div class="img-of-about-section"style={{background:govtofwblogo}}>
        <div id="bottom"> </div>
