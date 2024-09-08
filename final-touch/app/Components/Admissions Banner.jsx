@@ -13,7 +13,7 @@ const AdmissionsBanner = () => {
     <div className='shadow-md' style={{padding:"50px"}}>
     <div className="admissions-banner" style={{borderRadius:"30px"}}>
       <div className="text">
-      <h1>Admissions Are Open</h1>
+      <h1 className='px-[10px]'>Admissions Are Open</h1>
       <p>Admissions into our school are open to everyone!</p>        <button id="apply-now-button" onClick={AdimissionPage}>Apply Now!</button>
 </div>    
 {/* <div className="skew1"></div>
