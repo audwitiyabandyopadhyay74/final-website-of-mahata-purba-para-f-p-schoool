@@ -4,7 +4,7 @@ import Feature from "./Feature";
 import { FeaturesData } from "../Data/FeaturesData";
 import {AtlastData} from "../Data/FeaturesData";
 import Marquee from "react-fast-marquee";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 // import Img1 from '../Assets/Image/doubt-solve-in-class.png'
 

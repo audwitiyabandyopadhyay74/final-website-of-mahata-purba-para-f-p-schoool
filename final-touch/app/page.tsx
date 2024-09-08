@@ -9,19 +9,12 @@ import Footer from "./Components/Footer";
 
 
 export default function page() {
-    return ( <
-        >
-        <
-        Navbar / >
-        <
-        NavbarForMoblie / >
-        <   
-        Home / >
-        
-
-        <
-        Footer / >
-        <
-        />
+    return ( 
+        <>
+        <Navbar/>
+        <NavbarForMoblie/>
+        <Home/>
+        <Footer/>
+        </>
     )
 }

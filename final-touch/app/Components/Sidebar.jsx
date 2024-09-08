@@ -1,12 +1,12 @@
 "use client"
-import React,{useState} from 'react'
+import React from 'react'
 
 const Sidebar = () => {
-  var [style, setStyle] = useState({})
-  console.log(style)
-  const styleh = {
-    borderRightColor: `${style}`
-  }
+  // var [style, setStyle] = useState({})
+  // console.log(style)
+  // const styleh = {
+  //   borderRightColor: `${style}`
+  // }
   return (
     <div className='sidebar'>
       <div className="logo">

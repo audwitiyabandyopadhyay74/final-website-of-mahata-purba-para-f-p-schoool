@@ -4,7 +4,7 @@ import React from 'react';
 import AboutTeacher from './About-Teacher';
 import { useEffect, useState } from 'react'
 
-const AboutSection = () => {
+const AboutTeachers = () => {
   const [hydrated, setHydrated] = useState(false);
 
 useEffect(() => {

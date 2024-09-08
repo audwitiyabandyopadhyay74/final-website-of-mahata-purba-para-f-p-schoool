@@ -160,6 +160,7 @@ async function handlepdf () {
 
   const imgData = canvas.toDataURL('image/png');
   const imgData1 = canvas1.toDataURL('image/png');
+  const imgData2 = canvas2.toDataURL('image/png');
 
   const doc = new jsPDF()
   doc.addImage(imgData, 'PNG', 15, 40,410, 160);

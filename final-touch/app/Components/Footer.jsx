@@ -3,13 +3,13 @@
 import Image from 'next/image'
 import logo from '../Assets/Image/education-board-img.png'
 
-const style = {
-  height: '80vh',
-}
+// const style = {
+//   height: '80vh',
+// }
 
-const Home = () =>{
-  document.location.href = "/"
-}
+// const Home = () =>{
+//   document.location.href = "/"
+// }
 
 const Aboutus = () =>{
   document.location.href = "/about-us"

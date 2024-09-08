@@ -2,7 +2,7 @@
 
 // import Image from 'next/image'
 // import schoolelement from '../Assets/Image/School.jpg'
-// import Script from 'next/script'
+import Script from 'next/script'
 const AdimissionPage = () => {
   document.location.href = "/form"
 }
@@ -19,7 +19,7 @@ const AdmissionsBanner = () => {
 {/* <div className="skew1"></div>
 <div className="skew2"></div> */}
 {/* <div className="img">      <Image src={schoolelement} alt="" /> */}
-<script src='https://cdn.tailwindcss.com'></script>
+<Script src='https://cdn.tailwindcss.com'></Script>
 {/* </div>   */}
   </div></div>
   );
