@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
     <Banner/>
-   <span id="heading" style={{textTransform:"capitalize", fontWeight:"700",marginTop:"100px"}}>Why Us <br /><br /><br /><span id="note" className="py-100" style={{padding:"50px"}}>ℹ️ Note: This All Services are Given by WB Govt</span> </span> 
+   <span id="heading" style={{textTransform:"capitalize", fontWeight:"700",marginTop:"100px"}}>Why Us <br /><br /><br /><span id="note" className="py-100" style={{padding:"50px"}}>ℹ️ Note: These Services are Provided by WB Govt</span> </span> 
    <Features/>
    <AdmissionsBanner/>
    <BasicInformation/>
