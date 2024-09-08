@@ -1,4 +1,4 @@
-import Popup from "../Components/Popup";
+// import Popup from "../Components/Popup";
 import Form  from "../Pages/Form";
 import Navbar from "../Components/Navbar";
 import NavbarForMoblie from "../Components/Navbar For Mobile";
