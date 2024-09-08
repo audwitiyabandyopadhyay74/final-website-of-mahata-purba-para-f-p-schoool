@@ -9,7 +9,6 @@ const page = () => {
     <div>
           <Navbar/>
           <NavbarForMoblie/>
-      <Popup/>
       <br /><br /><br /><br /> <br /><br /><br /><br />
 
       <Form/> <Footer/>
