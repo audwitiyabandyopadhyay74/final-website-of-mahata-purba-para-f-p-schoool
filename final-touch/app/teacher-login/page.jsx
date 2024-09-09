@@ -17,7 +17,7 @@ signInWithEmailAndPassword(auth, email, password)
     const user = userCredential.user;
     console.log(user)
     // ...
-    redirect("/teacher-portal/")
+  redirect("/teacher-portal/")
   })
   .catch((error) => {
     alert("Invalid Email or Password")
