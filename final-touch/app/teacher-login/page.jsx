@@ -5,8 +5,8 @@ import {app} from "../firebaseConfig"
 import { redirect } from 'next/dist/server/api-utils'
 
 const page = () => {
-const [email,setEmail] = useState("")
-const [password,setPassword] = useState("")
+const [email,setEmail] = useState()
+const [password,setPassword] = useState()
 const auth = getAuth(app);
 
 const onLogin = (e) =>{
