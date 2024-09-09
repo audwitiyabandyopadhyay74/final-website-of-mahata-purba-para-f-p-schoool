@@ -16,7 +16,7 @@ if(!hydrated) {
   return null
 }
   return (
-    <div style={{padding:"50px"}}>
+    <div className='p-[-10px] lg:p-[50px]' style={{width:"100%",height:"max-content",display:"flex",justifyContent:"center",alignItems:"center"}}>
       
     <section className='about-us-section' style={{background:"#070707e0",marginTop:"300px",borderRadius:"30px"}}> <br /> <br />
     <h1 id="heading">About us</h1>

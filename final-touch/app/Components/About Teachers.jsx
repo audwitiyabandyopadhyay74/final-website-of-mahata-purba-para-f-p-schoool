@@ -18,9 +18,9 @@ if(!hydrated) {
 }
 
   return (
-    <div className='about-teachers'>
+    <div className='flex flex-wrap items-center justify-center w-screen h-max gap-5'>
 <div className='w-screen flex items-center justify-center'>
-<AboutTeacher Name={"Aniruddha Bandyopadhyay"} Role={"Head Teacher"} Qualifications={"B.A. , D.EL.Ed"} Experience={"6yrs as Para Teacher at Jharul High School 14yrs as Assistant Teacher in Primary School (Kaicher F.p School,Polyakura F.PSchool,Beroya F.p School)"} /> 
+<AboutTeacher Name={"Aniruddha Bandyopadhyay "} Role={"Head Teacher"} Qualifications={"B.A. , D.EL.Ed"} Experience={"6yrs as Para Teacher at Jharul High School 14yrs as Assistant Teacher in Primary School (Kaicher F.p School,Polyakura F.PSchool,Beroya F.p School)"} /> 
   
   </div>      
 

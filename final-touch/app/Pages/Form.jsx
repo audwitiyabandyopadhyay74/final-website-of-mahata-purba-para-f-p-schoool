@@ -319,10 +319,13 @@ const [file, setFile] = useState();
   <input required type="text" name="" id="name"     value={Height} onChange={(e) => setHeight(e.target.value)} placeholder="Height in ft Example:6-4" pattern="0-0"  className="w-[80%] h-[3rem] p-1 text-white overflow-none bg-[#000] border-[#000]  rounded-md border-b-[#fff] "  />
   <input required type="number" name="" id="name" value={Weight} onChange={(e) => setWeight(e.target.value)} placeholder="Weight in kg example:10"  className="w-[80%] h-[3rem] p-1 text-white overflow-none bg-[#000] border-[#000]  rounded-md border-b-[#fff] "  />
   <div className="text-2xl">Upload Student Image</div>
+
+      <div className="flex w-[80%] rounded-md">
   <input type="file" onChange={handleFileChangeforfirebase}  className="w-[80%] p-3 h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
-      <button onClick={handleUpload} disabled={uploading}>
+      <button onClick={handleUpload} disabled={uploading} className="bg-[#000] border border-white font-bold rounded-lg">
         {uploading ? "Uploading..." : "Upload Image"}
       </button>
+      </div>
       { uploadedUrl && (
         <div>
           <p>Uploaded image:</p>
@@ -336,10 +339,14 @@ const [file, setFile] = useState();
         </div>
       )}
 <div className="text-2xl">Upload Student Date of Birth Certificate Image</div>
-<input type="file" onChange={handleFileChangeforfirebase}  className="w-[80%] p-3 h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
-      <button onClick={handleUpload} disabled={uploading}>
+
+<div className="flex w-[80%] rounded-md">
+<input type="file" onChange={handleFileChangeforfiebase}  className="w-[80%] p-3 h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
+      <button onClick={handleUpload} disabled={uploading} className="bg-[#000] border border-white font-bold rounded-lg"> 
         {uploading ? "Uploading..." : "Upload Image"}
       </button>
+</div>
+
       { uploadedUrl && (
         <div>
           <p>Uploaded image:</p>
@@ -362,10 +369,13 @@ const [file, setFile] = useState();
 <input type="text" name="" id="name"  value={BloodGroup} onChange={(e) => setBloodGroup(e.target.value)} maxLength={2} placeholder="Enter Your Blood Group:"  className="w-[80%] h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
 <input type="text" name="" id="name"  value={CWSN} onChange={(e) => setCWSN(e.target.value)} placeholder="Enter Your CWSN (Write Yes or No):"   className="w-[80%] h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
 <div className="text-2xl">Upload Student Aadhar Image</div>
-<input type="file" onChange={handleFileChangeforfirebase}  className="w-[80%] p-3 h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
-      <button onClick={handleUpload} disabled={uploading}>
+
+       <div className="flex w-[80%] rounded-md">
+       <input type="file" onChange={handleFileChangeforfirebase}  className="w-[80%] p-3 h-[3rem] text-white overflow-none bg-[#000] border border-[#000] border-b-[#000] rounded-md" />
+      <button onClick={handleUpload} disabled={uploading} className="bg-[#000] border border-white font-bold rounded-lg">
         {uploading ? "Uploading..." : "Upload Image"}
       </button>
+       </div>
       { uploadedUrl && (
         <div>
           <p>Uploaded image:</p>
