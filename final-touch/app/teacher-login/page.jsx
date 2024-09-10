@@ -1,4 +1,4 @@
-// "use client"
+"use client"
 // import React ,{useState} from 'react'
 // import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail} from 'firebase/auth'
 // import {app} from "../firebaseConfig"
