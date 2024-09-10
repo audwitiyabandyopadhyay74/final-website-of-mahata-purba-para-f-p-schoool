@@ -46,10 +46,22 @@ next-route-announcer {
     width: 31vh;
     background: #080808e0;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 .teacher-portal {
     display: flex;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .sidebar>.options>.option {

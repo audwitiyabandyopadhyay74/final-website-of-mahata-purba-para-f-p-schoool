@@ -2,12 +2,14 @@
 import React ,{useState} from 'react'
 import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail} from 'firebase/auth'
 import {app} from "../firebaseConfig"
-import { redirect } from 'next/dist/server/api-utils'
+// import { redirect } from 'next/navigation'
+import { signOut } from 'firebase/auth'
 
 const page = () => {
 const [email,setEmail] = useState()
 const [password,setPassword] = useState()
-const auth = getAuth(app);
+const auth = getAuth(app)
+
 
 const onLogin = (e) =>{
 e.preventDefault()
@@ -17,10 +19,10 @@ signInWithEmailAndPassword(auth, email, password)
     const user = userCredential.user;
     console.log(user)
     // ...
-  redirect("/teacher-portal/")
+  document.location.href = "/teacher-portal/"
   })
   .catch((error) => {
-    alert("Invalid Email or Password")
+    alert("Invalid Email or Password"+ error)
     const errorCode = error.code;
     const errorMessage = error.message;
     console.log(errorMessage)
@@ -51,7 +53,7 @@ sendPasswordResetEmail(auth, email)
     <input type="text"     value={password} onChange={(e)=>setPassword(e.target.value)}  name="" id="" className='h-[7vh] w-[80%] bg-black text-white border-none outline-none rounded-md shadow-lg p-1' placeholder='Enter Your Password' />
  <button className='text-blue-900' onClick={onResetPassword}    >Reset Password</button>
 <button  onClick={onLogin} className='h-[7vh] w-[30%] bg-black text-white border-none outline-none rounded-md shadow-lg p-1 font-bold hover:scale-110'>Login </button>
-    </form>        
+</form>        
     </div>
     </div>
   )

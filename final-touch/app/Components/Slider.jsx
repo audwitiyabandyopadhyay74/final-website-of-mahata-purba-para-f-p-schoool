@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css'
 import img1 from '../Assets/Image/img1.png.jpg'
 import img2 from '../Assets/Image/img2.png.jpg'
 import img3 from '../Assets/Image/img3.png.jpg'
+import img4 from '../Assets/Image/img5.png.jpg'
 import Image from 'next/image';
 
 const fadeImages = [
@@ -18,7 +19,10 @@ const fadeImages = [
   {
     url: img3,
     // caption: 'Third Slide'
-  },
+  },{
+    url: img4,
+    caption: 'Fourth Slide'
+  }
 ];
 
 const Slider = () => {
