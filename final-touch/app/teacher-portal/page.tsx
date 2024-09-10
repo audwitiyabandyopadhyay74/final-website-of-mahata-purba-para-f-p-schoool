@@ -1,4 +1,4 @@
-// "use client"
+"use client"
 // import React, { useEffect, useState } from 'react'
 
 // import Sidebar from '../Components/Sidebar'
@@ -16,7 +16,7 @@
 //       if (user) {
 //         setUser(true)
 //       } else {
-//         setUser(false)
+//         setUser(false)The git repository at "c:\Us
 //       }
 //     });
 //   }, [auth])
