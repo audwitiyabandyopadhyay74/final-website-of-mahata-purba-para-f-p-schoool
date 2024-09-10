@@ -14,7 +14,7 @@ import {jsPDF} from"jspdf"
 import html2canvas from 'html2canvas';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
+import { getStorage } from "firebase  /storage";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 // import { set } from "firebase/database";
 
