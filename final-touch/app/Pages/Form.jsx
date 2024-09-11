@@ -289,7 +289,7 @@ const [file, setFile] = useState();
       await uploadBytes(storageRef, file);
       const url = await getDownloadURL(storageRef);
       setUploadedUrl(url);
-      console.log("File Uploaded Succesfuly");
+      alert("File Uploaded Succesfuly");
     } catch (error) {
       console.error('Error uploading the file', error);
     } finally {
