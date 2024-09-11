@@ -1,4 +1,6 @@
 // import Popup from "../Components/Popup";
+"use client"
+
 import Form  from "../Pages/Form";
 import Navbar from "../Components/Navbar";
 import NavbarForMoblie from "../Components/Navbar For Mobile";
