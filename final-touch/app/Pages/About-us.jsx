@@ -1,4 +1,5 @@
- import AboutSection from "../Components/About Section"
+"use client"
+import AboutSection from "../Components/About Section"
 import AboutTeachers from "../Components/About Teachers"
 
 
