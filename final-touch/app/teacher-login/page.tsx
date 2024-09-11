@@ -1,8 +1,8 @@
-"use client"
+// "use client"
 // import React ,{useState} from 'react'
 // import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail} from 'firebase/auth'
 // import {app} from "../firebaseConfig"
-// // import { redirect } from 'next/navigation'
+
 // import { signOut } from 'firebase/auth'
 
 // const page = () => {
@@ -15,10 +15,9 @@
 // e.preventDefault()
 // signInWithEmailAndPassword(auth, email, password)
 //   .then((userCredential) => {
-//     // Signed in 
+
 //     const user = userCredential.user;
 //     console.log(user)
-//     // ...
 //   document.location.href = "/teacher-portal/"
 //   })
 //   .catch((error) => {
@@ -62,7 +61,7 @@
 // export default page
 
 
-import React from 'react'
+// import React from 'react'
 
 export const page = () => {
   return (
