@@ -1,4 +1,3 @@
-// import Popup from "../Components/Popup";
 "use client"
 
 import Form  from "../Pages/Form";
@@ -12,7 +11,6 @@ const page = () => {
           <Navbar/>
           <NavbarForMoblie/>
       <br /><br /><br /><br /> <br /><br /><br /><br />
-
       <Form/> <Footer/>
     </div>
   );
